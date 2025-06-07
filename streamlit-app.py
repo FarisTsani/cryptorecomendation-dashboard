@@ -16,7 +16,7 @@ st.title("🚀 Crypto Price Prediction & Analysis App")
 
 # ==== LOAD DATA ====
 coin_file = pd.read_excel("top_50_coin.xlsx")
-tvl_file = pd.read_excel("tVl.xlsx")
+tvl_file = pd.read_excel("tVL.xlsx")
 
 if 'data' not in st.session_state:
     df, df_tvl = load_data(coin_file, tvl_file)
